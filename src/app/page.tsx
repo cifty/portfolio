@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import Projects from "./components/Projects";
@@ -50,7 +49,6 @@ const techStack = [
 export default function Home() {
   return (
     <main className="flex min-w-screen flex-col items-center justify-between gap-y-10">
-      <Navbar />
       <div className="flex flex-col justify-center max-w-[700px]">
         <h1 className="tracking-[-0.05em] text-4xl font-light text-white-80">
           hi, i&apos;m <span className=" font-semibold">caroly</span> - a
