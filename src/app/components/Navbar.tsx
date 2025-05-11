@@ -26,7 +26,7 @@ function Navbar() {
   };
 
   return (
-    <NavigationMenu>
+    <NavigationMenu className="container mx-auto pb-12 pt-3">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
